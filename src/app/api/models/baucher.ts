@@ -3,5 +3,5 @@
 export interface Baucher {
   empleadoid: string;
   fecha: string;
-  id?: string;
+  id: string;
 }

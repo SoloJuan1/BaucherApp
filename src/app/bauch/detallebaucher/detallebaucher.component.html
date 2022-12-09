@@ -1,1 +1,25 @@
-<p>detallebaucher works!</p>
+<nz-table #basicTable [nzData]="detallebaucher">
+    <thead>
+      <tr>
+        <th>#</th>
+        <th>EmpleadoId</th>
+        <th>Fecha</th>
+        <th>Action</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let data of basicTable.data;let i=index">
+        <td>{{i+1}}</td>
+        <td>{{data.empleadoid</td>
+        <td>{{data.fecha}</td>
+        <td>
+        <div *ngIf="data.id"><i nz-icon nzType="check-square" nzTheme="outline"></i></div>
+        </td>
+        <td>
+          <a> <i nz-icon nzType="edit" nzTheme="twotone"></i></a>
+          <nz-divider nzType="vertical"></nz-divider>
+          <a>Delete</a>
+        </td>
+      </tr>
+    </tbody>
+  </nz-table>

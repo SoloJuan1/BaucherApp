@@ -2,7 +2,7 @@
 /* eslint-disable */
 export interface Cuenta {
   empleadoId?: string;
-  id?: string;
+  id: string;
   nombre: string;
   tipo: string;
 }

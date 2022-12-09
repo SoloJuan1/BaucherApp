@@ -21,6 +21,7 @@ import { NzInputModule } from 'ng-zorro-antd/input';
 import { NzDatePickerModule } from 'ng-zorro-antd/date-picker';
 import { NzSelectModule } from 'ng-zorro-antd/select';
 import { NzRadioModule } from 'ng-zorro-antd/radio';
+import { NzFormModule } from 'ng-zorro-antd/form';
 
 @NgModule({
   declarations: [
@@ -45,7 +46,8 @@ import { NzRadioModule } from 'ng-zorro-antd/radio';
     NzInputModule,
     NzDatePickerModule,
     NzSelectModule,
-    NzRadioModule
+    NzRadioModule,
+    NzFormModule
 
   ]
 })

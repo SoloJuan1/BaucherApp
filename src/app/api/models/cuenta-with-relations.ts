@@ -10,7 +10,7 @@ export interface CuentaWithRelations {
   detallebauchers?: Array<DetallebaucherWithRelations>;
   empleado?: EmpleadoWithRelations;
   empleadoId?: string;
-  id?: string;
+  id: string;
   nombre: string;
   tipo: string;
 }

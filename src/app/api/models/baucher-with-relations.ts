@@ -9,5 +9,5 @@ export interface BaucherWithRelations {
   detallebauchers?: Array<DetallebaucherWithRelations>;
   empleadoid: string;
   fecha: string;
-  id?: string;
+  id: string;
 }
